@@ -1,0 +1,36 @@
+
+
+table{
+    border:1px solid black;
+
+}
+
+.restartbutton:hover{
+    background: var(--primary-color);
+
+}
+
+:root {
+    --primary-color: #003699;
+    --dark-color: #333333;
+    --light-color: #f4f4f4;
+    --lose-color: #dc3545;
+    --win-color: #28a745;
+    --modal-duration: 1s;
+  }
+
+.text-win{
+    color:var(--win-color);
+}
+
+.text-lose{
+    color:var(--lose-color);
+}
+
+.choices{
+    cursor:pointer;
+}
+.choices:hover{
+    color: green;
+}
+
